@@ -1,0 +1,61 @@
+name: escola_conducao
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Certifique-se de que a versão do SDK é compatível
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^3.15.2 # Adicione
+  firebase_auth: ^5.7.0 # Adicione
+  cloud_firestore: ^5.6.12 # Adicione
+  firebase_storage: ^12.4.10 # Adicione (para gerenciamento de documentos)
+  url_launcher: ^6.3.0 # Use a versão mais recente
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Para adicionar assets (imagens, fontes, etc.) ao seu aplicativo, adicione uma seção 'assets' como esta:
+  assets:
+    - assets/logo_maria_olga.png # Certifique-se de que este caminho está correto e que o nome do arquivo corresponde ao seu logo
+    # - assets/images/a_dot_burr.jpeg
+    # - assets/images/a_dot_ham.jpeg
+
+  # Para mais informações sobre como adicionar assets, veja
+  # https://flutter.dev/docs/release/building-a-web-app#adding-assets
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/docs/guides/development/ui/assets-and-images#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/docs/develop/fonts

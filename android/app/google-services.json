@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551003132497",
+    "project_id": "autoescola-sistema-86ed8",
+    "storage_bucket": "autoescola-sistema-86ed8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551003132497:android:4670f27f9c07c855899e70",
+        "android_client_info": {
+          "package_name": "com.example.escola_conducao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQl87n87ykVd-uS3NGkay5HPP8beA0vPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
