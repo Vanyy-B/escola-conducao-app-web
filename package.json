@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Deploy da aplicação web da Escola de Condução",
   "devDependencies": {
-    "@netlify/plugin-flutter": "^0.3.0"
+    "@netlify/plugin-flutter": "latest"
   },
   "scripts": {
     "build": "flutter build web"
