@@ -2,9 +2,7 @@
   "name": "escola-conducao-web-app",
   "version": "1.0.0",
   "description": "Deploy da aplicação web da Escola de Condução",
-  "devDependencies": {
-    "@netlify/plugin-flutter": "latest"
-  },
+  "devDependencies": {},
   "scripts": {
     "build": "flutter build web"
   }
